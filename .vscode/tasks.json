@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "command": "explorer",    
+    "windows": {
+        "command": "explorer.exe"
+    },
+    "args": [
+        "tasks.json"
+    ],
+    "tasks": [
+        {
+            "label": "explorer.exe",
+            "args": [
+                "tasks.json"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "_id": "build",
+                "isDefault": false
+            }
+        }
+    ]
+}
