@@ -137,6 +137,17 @@ body {
   position: relative;
 }
 
+.resume_overview .info {
+  padding-left: 40px; /* Adjust this to align with the experience section */
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.resume_overview .info p {
+  line-height: 1.5; /* Improve readability */
+  color: #555555; /* Match color with the experience section */
+}
+
 .resume .resume_right .resume_skills ul li .skill_per {
   width: 15%;
 }
