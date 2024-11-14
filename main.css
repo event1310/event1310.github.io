@@ -19,12 +19,17 @@ body {
 .bold {
   font-weight: 700;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 .semi-bold {
+  color: #fff;
   font-weight: 500;
   font-size: 13px;
+}
+
+.resume_education .title .bold {
+  margin-top: 15px;
 }
 
 .resume {
@@ -113,7 +118,7 @@ body {
 
 .resume .resume_left .resume_skills ul li {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #b1eaff;
   justify-content: space-between;
   align-items: center;
@@ -146,8 +151,16 @@ body {
 
 .resume .resume_left .resume_social .semi-bold {
   color: #fff;
-  margin-bottom: 3px;
-  
+  margin-bottom: 5px;
+}
+
+.info .semi-bold {
+  color: #b1eaff;
+}
+
+.info .date {
+  color: #fff;
+  margin: 2px;
 }
 
 .resume .resume_right {
@@ -175,7 +188,7 @@ body {
 .resume .resume_right ul li .date {
   font-size: 14px;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .resume .resume_right ul li .language_name {
@@ -268,7 +281,7 @@ body {
 .flexik {
   display: flex;
   flex-direction: row;
-  
+
 }
 
 .flags {
